@@ -5,41 +5,41 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1>Annonces</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
-              path='/services'
+              src='images/duyuru1.jpg'
+              text="Mme Catherine Colonna, ministre française de l'Europe et des Affaires étrangères a rendu visite à notre université"
+              label='Actuel'
+              path='/education'
             />
             <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
-              path='/services'
+              src='images/duyuru2.jpeg'
+              text="Finale Nationale MT180 Turquie a été organisée à l'Université Galatasaray"
+              label='Actuel'
+              path='/education'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
-              path='/services'
+            src='images/duyuru3.jpg'
+              text="Premier Prix Dans Le Concours D'ecriture"
+              label='Événement'
+              path='/education'
             />
             <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
-              path='/products'
+            src='images/duyuru4.jpg'
+              text='Forum de Carrières Francophones'
+              label='Nouvelle'
+              path='/education'
             />
             <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
-              path='/sign-up'
+            src='images/duyuru6.jpg'
+              text="Résultats de l'évaluation des demandes d’admission des étudiants étrangers  pour l'année académique 2023-2024"
+              label='Événement'
+              path='/education'
             />
           </ul>
         </div>
