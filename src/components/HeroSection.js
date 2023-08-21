@@ -1,6 +1,6 @@
 import React ,{useState} from 'react';
 import '../App.css';
-import { Button } from './Button';
+
 import './HeroSection.css';
 import Navbar from './Navbar';
 import {FaSearch } from 'react-icons/fa';
